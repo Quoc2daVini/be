@@ -4,14 +4,11 @@ const cors = require("cors");
 const path = require("path");
 const app = express();
 
-// var corsOptions = {
-//   origin: "http://localhost:8081"
-// };
+var corsOptions = {
+  origin: 'https://fe-gamma-green.vercel.app/'
+};
 
-// app.use(cors(corsOptions));
-// enable cors
-app.use(cors());
-app.options('*', cors());
+app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
 app.use(express.json());
