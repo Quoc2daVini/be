@@ -1,8 +1,8 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "postgres",
-  PASSWORD: "123456",
-  PORT: 5436,
+  HOST: "aws-0-ap-southeast-1.pooler.supabase.com",
+  USER: "postgres.jbtmorzfwnvwxolxdulk",
+  PASSWORD: "QuocVinh@0905",
+  PORT: 6543,
   DB: "postgres",
   dialect: "postgres",
   pool: {
